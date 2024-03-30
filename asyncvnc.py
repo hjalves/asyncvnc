@@ -433,11 +433,11 @@ class UpdateType(Enum):
     #: Video update.
     VIDEO = 0
 
-    #: Clipboard update.
-    CLIPBOARD = 2
-
     #: Bell update.
-    BELL = 3
+    BELL = 2
+
+    #: Clipboard update.
+    CLIPBOARD = 3
 
 
 @dataclass
